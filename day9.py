@@ -24,7 +24,7 @@ def solve(input):
     for y in range(1,width+1):
         for x in range(1,height+1):
             cur = heightmap[x][y]
-            if cur <= heightmap[x+1][y] and \
+            if cur < heightmap[x+1][y] and \
                     cur < heightmap[x-1][y] and \
                     cur < heightmap[x][y+1] and \
                     cur < heightmap[x][y-1]:
