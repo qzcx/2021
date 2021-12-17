@@ -105,5 +105,5 @@ def parse_operator(msg, part2):
 # solve(problem_input)
 
 
-solve(example_input, True)
 solve(problem_input, True)
+solve(example_input, True)
