@@ -1,0 +1,256 @@
+inp w
+x = z
+x %= 26
+x += 10
+x != w 
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 12
+y *= x
+z += y
+
+if (z%26)+10 != w:
+  z = z * 26 + w+12
+
+inp w
+x = z
+x %= 26
+x += 10
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 10
+y *= x
+z += y
+
+if (z%26)+10 != w:
+  z = z * 26 + w + 10
+
+inp w
+x = z
+x %= 26
+x += 12
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 8
+y *= x
+z += y
+
+if (z%26)+12 != w:
+  z = z * 26 + w + 8
+
+inp w
+x = z
+x %= 26
+x += 11
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 4
+y *= x
+z += y
+
+if (z%26)+11 != w:
+  z = z * 26 + w + 4
+
+inp w
+x = z
+x %= 26
+z /= 26
+x += 0
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 3
+y *= x
+z += y
+
+z /= 26
+if (z%26)+0 != w:
+  z = z * 26 + w + 3
+
+inp w
+x = z
+x %= 26
+x += 15
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 10
+y *= x
+z += y
+
+if (z%26)+15 != w:
+  z = z * 26 + w + 10
+
+
+inp w
+x = z
+x %= 26
+x += 13
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 6
+y *= x
+z += y
+
+if (z%26)+13 != w:
+  z = z * 26 + w + 6
+
+
+inp w
+x = z
+x %= 26
+z /= 26
+x += -12
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 13
+y *= x
+z += y
+
+
+z /= 26
+if (z%26)-12 != w:
+  z = z * 26 + w + 13
+
+inp w
+x = z
+x %= 26
+z /= 26
+x += -15
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 8
+y *= x
+z += y
+
+z /= 26
+if (z%26)-15 != w:
+  z = z * 26 + w + 8
+
+inp w
+x = z
+x %= 26
+z /= 26
+x += -15
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 1
+y *= x
+z += y
+
+
+z /= 26
+if (z%26)-15 != w:
+  z = z * 26 + w + 1
+
+inp w
+x = z
+x %= 26
+z /= 26
+x += -4
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 7
+y *= x
+z += y
+
+z /= 26
+if (z%26)-4 != w:
+  z = z * 26 + w + 7
+
+inp w
+x = z
+x %= 26
+x += 10
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 6
+y *= x
+z += y
+
+if (z%26)+10 != w:
+  z = z * 26 + w + 6
+
+inp w
+x = z
+x %= 26
+z /= 26
+x += -5
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 9
+y *= x
+z += y
+
+
+z /= 26
+if (z%26)-5 != w:
+  z = z * 26 + w + 9
+
+inp w
+x = z
+x %= 26
+z /= 26
+x += -12
+x != w
+y = 25
+y *= x
+y += 1
+z *= y
+y = w
+y += 9
+y *= x
+z += y
+
+z /= 26
+if (z%26)-12 != w:
+  z = z * 26 + w + 9
